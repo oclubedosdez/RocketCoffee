@@ -1,0 +1,66 @@
+@media(width: 219px) {
+    .blur-left {
+        display: none;
+    }
+
+    .blur-right {
+        display: none;
+    }
+
+    .blur-mobile {
+        display: block;
+        position: absolute;
+        width: 950px;
+        height: 1100px;
+        left: 0px;
+        top: 60rem;
+        background: #996dff2d;
+        filter: blur(100px);
+    }
+    .copo-de-cafe {
+        position: absolute;
+        left: 4rem !important;
+        top: 84rem !important;
+        z-index: 4;
+    }
+    .container {
+        display: inline;
+    }
+    .Titulo {
+        position: absolute;
+        display: inline;
+        left: -3rem;
+        width: 1000px;
+        height: 200px;
+        top: 60rem;
+        font-size: 3rem;
+    }
+    .menu button {
+        display: flex;
+        position: absolute;
+        left: -5rem;
+        top: 40rem;
+        width: 400px;
+        height: 70px;
+        font-size: 22pt;
+        text-align: center;
+        justify-content: center;
+        border: 2px solid #996dff;
+    }
+    .menu button::after {
+        content: " >";
+        font-size: 3.4rem;
+        position: absolute;
+        left: 21rem;
+        top: -0.5rem;
+    }
+    .menus {
+        display:none !important;
+    }
+    .logo-desktop {
+        display: none;
+    }
+    .menu-mobile {
+        display:inline;
+    }
+}

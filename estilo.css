@@ -1,0 +1,219 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: var(--background);
+    overflow: hidden;
+    /* transition: all 2s; */
+}
+
+:root {
+    --background:#000;
+    --text-color:#FFF;
+    --button:#8257E5;
+    --border:#29292E;
+    --border-menu-mobile:#A8A8B3;
+    --text-color-menu-mobile:#E1E1E6;
+}
+
+.container {
+    display: flex;
+}
+
+/*Titulo*/
+.Titulo{
+    position: absolute;
+    color: var(--text-color);
+    font-family: 'Manrope', sans-serif;
+    left: 540px;
+    top: 140px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+} 
+
+.Titulo .greatcode {
+    color: var(--background);
+    text-shadow: -1px -1px 2px var(--button),-1px -1px 2px var(--button),1px 1px 2px var(--button),1px 1px 2px var(--button),1px 1px 4px var(--button),1px 1px 4px var(--button),1px 1px 4px var(--button),1px 1px 4px var(--button);
+}
+
+
+.corpo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.corpo .blur-left {
+    position: absolute;
+    top: 217px;
+    filter: blur(1px);
+}
+
+.corpo .blur-right {
+    position: absolute;
+    left: 61.3rem;
+}
+
+.corpo .copo-de-cafe{
+    position: absolute;
+    top: 339.4px;
+    left: 400px;
+    width: 800px;
+}
+
+
+.menu {
+ display: flex;
+ position: absolute;
+ top: 70px;
+ left: 21rem;
+ width: 1100px;
+ height: 50px;
+ gap: 160px;
+ align-items: center;
+ cursor: pointer;
+}
+
+.menu .menus {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    gap: 3rem;
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.menu .menus a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu .menus a:hover {
+    color: #8257E5;
+    filter: blur(190%);
+    text-shadow: -1px 1px 0 #8257E5;
+}
+
+.menu button {
+    background: transparent;
+    color: white;
+    border: 2px solid #8257e59d;
+    height: 40px;
+    width: 200px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 5;
+    align-items: center;
+}
+
+.menu button:hover {
+    background-color: #8257E5;
+    filter: brightness(150%);
+    box-shadow: 1px 1px 20px #8257E5;
+}
+
+/*mobile*/
+.blur-mobile {
+    display: none;
+}
+
+.menu-mobile {
+    display:none;
+    width: 1000px;
+}
+
+.menu-mobile p {
+    width: 610px;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    top: 60%;
+    left: 70%;
+    text-align: center;
+    font-size: 50pt;
+    font-weight: 400;
+}
+
+.logo-mobile {
+    display: flex;
+    border: 1px solid white;
+    width: 900px;
+    height: 140px;
+}
+
+.logo-mobile .logo{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 350px;
+}
+
+.logo-mobile .menus-burger-open {
+    position: absolute;
+    width: 70px;
+    left: 350%;
+    top: 55px;
+}
+.menus-burger-close {
+    display: none;
+    position: absolute;
+    width: 70px;
+    left: 350%;
+    top: 30px;
+}
+.menus-mobile {
+    display: none;
+    position: absolute;
+    width: 870px;
+    height: 1660px;
+    border: 1px solid rgb(47, 47, 47);
+    background: black;
+    z-index: 5;
+}
+
+.menus-mobile ul {
+    position: absolute;
+   font-size: 30pt;
+   display: flexbox;
+   margin-left: -40px;
+   width: 860px;
+   top: -41px;
+}
+
+.menus-mobile ul li {
+    display: flex;
+    gap: 10px;
+    border: 1px solid rgb(48, 48, 48);
+    padding: 25px;
+}
+
+.menus-mobile ul li:hover {
+    border-left: 12px solid var(--button);
+}
+
+.menus-mobile ul li a {
+    color:rgb(157, 156, 156);
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    cursor: pointer;
+    font-size: 30pt;
+    gap: 60px;
+    font-weight: 700;
+}
+
+.menus-mobile ul li a:hover{
+    color:white;
+}
+
+
+
+
+
+
+
