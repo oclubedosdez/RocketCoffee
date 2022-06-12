@@ -1,4 +1,4 @@
-@media(width: 219px) {
+@media(max-width: 1200px) {
     .blur-left {
         display: none;
     }
